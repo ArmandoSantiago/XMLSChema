@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no" ?>
+<!DOCTYPE SALON SYSTEM "salon.dtd">
+<SALON>
+    <ALUMNO COD="1">
+        <NOMBRE>Azucena</NOMBRE>
+        <AMIGOS>Armando</AMIGOS>
+        <AMIGOS>Fernando</AMIGOS>
+        <EDAD>22</EDAD>
+        <CARRERA>Terapia fisica</CARRERA>
+    </ALUMNO>
+    <ALUMNO COD="1">
+        <NOMBRE>Armando</NOMBRE>
+        <AMIGOS>Azucena</AMIGOS>
+        <AMIGOS>Omar</AMIGOS>
+        <EDAD>21</EDAD>
+        <CARRERA>Sistemas Informaticos</CARRERA>
+    </ALUMNO>
+</SALON>
