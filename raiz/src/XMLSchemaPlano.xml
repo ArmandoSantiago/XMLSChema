@@ -22,7 +22,6 @@
         </xs:complexType>
     </xs:element>
 
-    <xs:simpleType name=""> </xs:simpleType>
 
     <xs:element name="NOMBRE" type="xs:string"/>
     <xs:element name="GENERO" type="xs:string"/>
