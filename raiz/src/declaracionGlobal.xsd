@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:attribute name="system" type="xs:string"/>
+    <xs:attribute name="dim" type="xs:integer"/>
+
+    <xs:complexType name="SizeType">
+        <xs:attribute ref="system" use="required"/>
+        <xs:attribute ref="dim"/>
+    </xs:complexType>
+</xs:schema>

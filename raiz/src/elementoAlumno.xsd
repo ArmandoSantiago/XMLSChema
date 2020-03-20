@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema
+        xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:annotation>
+        <xs:documentation>
+            Define un salon compuesto por alumnos para
+            tomar un curso dentro de la UTEZ.
+            Creado por: Armando Santiago
+        </xs:documentation>
+    </xs:annotation>
+    <xs:element name="SALON">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="ALUMNO" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,11 @@
+<xs:schema>
+        SALON         <xs:element name="SALON">
+        ALUMNO        <xs:element name="ALUMNO">
+        NOMBRE        <xs:element name="NOMBRE"/>
+        GENERO        <xs:element name="GENERO"/>
+        FECHA_NAC     <xs:element name="FECHA_NAC"/>
+        AMIGOS        <xs:element name="AMIGOS"/>
+        EDAD          <xs:element name="EDAD"/>
+        CARRERA       <xs:element name="CARRERA"/>
+
+
